@@ -19,9 +19,16 @@ $background-color: #f9f9f9;
     font-size: 59px;
     line-height: 72px;
 }
+
 .text {
     font-size: 16px;
     line-height: 20px;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 // $line-color: #;

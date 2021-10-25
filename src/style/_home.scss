@@ -1,45 +1,56 @@
 .home {
-    padding: 5px 50px;
-    display: flex;
-    flex-direction: row;
-    .row {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        .col {
-          flex: 1;
-         }
-         &__title {
+    padding-top: 123px;
 
-             font-size: 60px;
-             line-height: 72px;
-             color: $primary-color;
-             padding-bottom: 75px;
-         }
-         &__text {
-             font-size: 24px;
-             line-height: 30px;
-             color: $secondary-color;
-             padding-top: 35px;
-             padding-bottom: 20px;
-         }
-             &__btn {
-                 width: 160px;
-                 height: 48px;
-                 font-size: 14px;
-                 line-height: 22px;
-                 background-color: #F46A35;
-                 border: 1px solid #F46A35;
-                 box-sizing: border-box;
-                 border-radius: 30px;
-                 cursor: pointer;
-         }
-         
-         
+    .wrapper {
+        max-width: 1120px;
+        width: 100%;
+        margin: 0 auto;
     }
 
+    .row {
+        display: flex;
+        
+        flex-wrap: wrap;
+
+        .col {
+            flex: 1 0 0;
+        }
 
 
+
+
+    }
+
+    &__title {
+        font-size: 60px;
+        line-height: 72px;
+        color: $primary-color;
+        font-weight: normal;
+
+        &-main {
+            margin-top: 72px;
+        }
+    }
+
+    &__text {
+        font-size: 24px;
+        line-height: 30px;
+        color: $secondary-color;
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+
+    &__btn {
+        width: 160px;
+        height: 48px;
+        font-size: 14px;
+        line-height: 22px;
+        background-color: #F46A35;
+        border: 1px solid #F46A35;
+        box-sizing: border-box;
+        border-radius: 30px;
+        cursor: pointer;
+    }
 
 
 
