@@ -1,0 +1,22 @@
+@import url(../libs/fonts/Roboto/font-family);
+@import url(../slick/slick.css);
+@import url(../slick/slick-theme.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+ font-family: roboto;   
+}
+@import'./header';
+@import'./home';
+@import'./companies';
+@import './credit';
+@import'./companies';
+@import'./pay';
+@import'./wine';
+@import'./changing';
+@import'./magazines';
+@import'./start';
+@import'./footer';

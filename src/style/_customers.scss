@@ -1,0 +1,12 @@
+.customers {
+        text-align: center;
+    &__title {
+        font-size: 51px;
+        line-height: 64px;
+        padding-top: 96px;
+    }
+    &__text {
+        padding-top: 16px;
+        padding-bottom: 32px;
+    }
+}

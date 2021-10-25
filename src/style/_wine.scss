@@ -1,0 +1,15 @@
+.wine {
+    background-color: $primary-color;
+    .title {
+        color: #737373;
+        span {
+            color: #fff;
+        }
+    }
+    .text {
+      font-size: 20px;
+      line-height: 28px;
+      color: #fff;
+    }
+
+}

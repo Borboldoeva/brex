@@ -1,0 +1,17 @@
+.credit {
+    
+    &__title {
+      align-items: center;
+    }
+    &__text {
+        justify-content: center;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    &__btn {
+        border-radius: 50%;
+        outline: none;
+        color: white;
+        background-color: #F46A35;
+    }
+}
